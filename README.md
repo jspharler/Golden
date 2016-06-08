@@ -73,29 +73,4 @@ Two Sidebars, Left Sidebar, Right Sidebar, No-Sidebar.  To use these layouts, se
 * Responsive triggers for Superfish and Masonry powered by Enquire.js. MIT Licence http://wicky.nillia.ms/enquire.js/#license
 * Images used in screenshot are by the theme author and published under the CC by-nc-nd 2.0 license
 * Thanks to my lovely wife for cookies and tea :)
-=======
-# jspharler #
-## A personal website ##
-* 1.0
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
 
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
->>>>>>> 5f3dc27eac8c3f4dc83ddd519aefb8e3b6262d13
