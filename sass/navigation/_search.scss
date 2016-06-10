@@ -1,0 +1,137 @@
+// General search form settings
+
+form.search-form {
+    padding-right: 5em;
+}
+
+#header-search-container label {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    
+    input {
+/*        position: absolute;
+        right: 0;*/
+    }
+}
+
+.search-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4em;
+    width: 4em;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    z-index: 999;
+            
+}
+
+.search-toggle:hover,
+.search-toggle.active {
+    background: #4d4d4d;
+    background: hsl(0, 0%, 30%);
+}
+
+.search-toggle .screen-reader-text {
+    top: 0;
+    right: 0;
+}
+
+.search-box-wrapper {
+    order: 1;
+    position: relative;
+    height: 4em;
+    z-index: 2;
+    width: 100%;
+    
+        .search-box {
+            width: 100%;
+/*            padding: 1em;*/
+            height: 4em;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            right: 0;
+        
+            .search-form {
+                
+                .search-field {
+                    display: flex;
+                    flex: 1 1 auto;
+                    width: auto;
+                    padding: 0 0 0 1em;
+                    font-size: 1em;
+                    background-color: #fff;
+                    border-radius: 25px;
+/*                    float: right;*/
+/*                    margin-right: 1rem;*/
+                }
+            }
+        }
+
+
+}
+
+    .header-search-container {
+        display: flex;
+        order: 1;
+        width: 100%;
+        height: 4rem;
+    }
+/*        .search-box-wrapper {
+        position: relative;
+        bottom: 0;
+        order: 1;
+        
+            .search-box {
+                position: absolute;
+                right: 0;
+                padding: 0;
+            }
+        
+        }*/
+    
+
+.hide { display: none; }
+
+.error404 .search-submit,
+.search .search-submit,
+.search-box .search-submit { display: none; }
+
+
+/*--------------------------------------------------------------
+Small Screen
+--------------------------------------------------------------*/
+
+@media screen and (max-width: 914px) {
+    
+    .header-search-container {
+        display: flex;
+        order: 1;
+        width: 100%;
+    }
+
+    .search-toggle {
+        order: 2;
+    }
+    
+    .search-box-wrapper {
+        position: relative;
+        bottom: 0;
+        
+        .search-box {
+            position: absolute;
+            right: 0;
+            padding: 0;
+        }
+        
+    }
+    
+    form.search-form {
+        padding-right: 1em;
+    }
+}

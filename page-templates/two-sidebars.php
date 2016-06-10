@@ -1,7 +1,7 @@
 <?php
 /**
  * 
- * Template Name: Page with two sidebars
+ * Template Name: Two sidebars
  *
  * @link https://codex.wordpress.org/Template_Hierarchy
  *

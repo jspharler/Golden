@@ -1,0 +1,384 @@
+/*--------------------------------------------------------------
+6.2.1 Main Menu
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+General styles
+--------------------------------------------------------------*/
+
+#site-navigation.main-navigation {
+/*    display: flex;*/
+    height: auto;
+    flex-flow: row wrap;
+    background: #333333; 
+    
+    .toggle-container {
+        display: flex;
+        order: 3;
+            
+        .menu-toggle{
+            display: flex;
+            width: auto;
+            
+            & > a {
+                display: flex;
+                align-items: center;
+                width: 100%;
+                height: 100%;
+                color: white;
+                padding: 1rem;
+                    
+            }
+            & a:hover,
+            & a:focus {
+                background: #4d4d4d;
+            }
+            & a:before {
+                font-family: 'fontawesome';
+                content: "\f0c9";
+                padding-right: 1rem;
+            }
+        }
+    }    
+    
+    #primary-container, #primary-menu {
+        display: none;
+        order: 2;
+        width: 100%;
+        
+        ul {
+            display: none;
+                            
+            ul {
+                list-style: none;
+                display: none;
+                margin: 0;
+                padding-left: 0;
+                width: auto;
+
+                ul {
+                    z-index: 99999;
+                }
+        }
+        
+            li {
+                        position: relative;
+            }
+        
+            a:hover { 
+/*                height: inherit;*/
+                background: #4d4d4d;
+            }
+        
+        }
+    }
+    
+    ul {
+        height: auto;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    a {
+        white-space: nowrap;
+        height: 4em;
+        text-decoration: none;
+        color: white;
+        align-items: center;
+    }
+}
+
+/*--------------------------------------------------------------
+Wide screen
+--------------------------------------------------------------*/
+
+@media screen and (min-width: 914px) {
+    
+    #site-navigation.main-navigation {
+        order: 2;
+        
+        .toggle-container { 
+            .menu-toggle{
+                display: none;
+            }
+        }
+        
+        #primary-container, #primary-menu {
+            display: flex;
+            flex: 1 1 auto;
+            order: 2;
+
+                ul {
+                    display: flex;
+                    flex-flow: row wrap;
+                    background: #333333; 
+                    list-style: none;
+                    margin: 0;
+                    width: 95%;
+
+                     & li:hover > ul { 
+                         display: flex;
+                         flex-flow: column nowrap;
+                    }
+
+
+                    ul {
+                        display: none;  // Hide submenus until hover
+                        position: absolute;
+                        flex-flow: column nowrap;
+                        left: 0;
+                        z-index: 99999;
+                        padding: 0;
+
+                            ul { 
+                                top: 0;
+                                left: 100%;
+
+                                li {
+                                    width: 100%;
+                                }
+
+                                a {
+                                    border-left: 1px solid #4d4d4d;
+                                }
+                            }
+
+                            li {
+                                width: 100%;
+                            }
+
+                            a {
+                                height: auto;
+                                border-bottom: 1px solid #4d4d4d;
+                            }
+                        }
+                  }
+        }
+    
+        a {
+              padding: 0 1rem;
+              display: flex;
+              text-decoration: none;
+          }
+    }
+    
+}
+
+@media screen and (max-width: 913px) {
+    
+/*--------------------------------------------------------------
+Small menu styles
+--------------------------------------------------------------*/
+    
+    /*--------------------------------------------------------------
+   Small menu untoggled
+   --------------------------------------------------------------*/
+
+    #site-navigation.main-navigation {
+        display: flex;
+        justify-content: center;
+        order: 3;
+        padding: 0;
+        height: auto;
+        background-color: #333333; // dark grey and golden poppy
+
+        .toggle-container {
+            display: flex;
+            width: 100%;
+            order: 2;
+        
+            .menu-toggle {
+                display: flex;
+                order: 1;
+                padding: 0 1rem;
+                margin: 0;
+                height: 4rem;
+            }
+        }
+    }
+    
+    /*--------------------------------------------------------------
+    Small menu toggled
+    --------------------------------------------------------------*/
+    #site-navigation.main-navigation.toggled {
+            display: flex;
+            justify-content: center;
+            order: 3;
+            flex-flow: column nowrap;
+            background-color: #333333; // dark grey and golden poppy
+            height: auto;
+            
+            .toggle-container {  // Second container
+                display: flex;
+                width: 100%;
+                order: 2;
+                
+                    .menu-toggle {
+                        display: flex;
+                        height: 4rem;
+                        order: 1;
+                        padding: 0 1rem;
+                        margin: 0;
+                    }
+            }
+         
+         #primary-container, #primary-menu {  // Third container
+             display: flex;
+             order: 3;
+             width: 100%;
+             height: auto;
+             z-index: 99999;
+             
+             ul {
+                background: #333333;
+                position: absolute;
+                display: flex;
+                flex-flow: column nowrap;
+                height: auto;
+                width: 100%;
+                list-style: none;
+                margin: 0;
+
+                    ul {
+                        height: 100%;
+                        display: flex;
+                        position: relative;
+                        flex-flow: column nowrap;
+                                          
+                        a {
+                            padding-left: 4rem;
+                        }
+
+                            ul {
+                                height: 100%;
+                                display: flex;
+                                position: relative;
+                                flex-flow: column nowrap;
+                                
+                                a {
+                                    padding-left: 6rem;
+                                }
+                            }
+                    }   
+             }
+                
+                a {
+                    display: flex;
+                    height: 4rem;
+                    text-decoration: none;
+                    padding: 2rem;
+                    border-bottom: 1px solid #4d4d4d;
+                    align-items: center;
+                }
+         }
+    }
+}
+
+.comment-navigation,
+.posts-navigation,
+.post-navigation {
+
+	.site-main & {
+		margin: 0 0 1.5em;
+		overflow: hidden;
+	}
+
+	.nav-previous {
+		float: left;
+		width: 50%;
+	}
+
+	.nav-next {
+		float: right;
+		text-align: right;
+		width: 50%;
+	}
+}
+
+/*--------------------------------------------------------------
+6.2.2 Jetpack Social Menu
+--------------------------------------------------------------*/
+.jetpack-social-navigation .menu {
+    margin: 0;
+    a {
+        font-size: 2rem;
+    }
+}
+
+.jetpack-social-navigation ul {
+    display: flex !important;
+    flex-wrap: wrap !important;
+}
+
+.jetpack-social-navigation li {
+    margin: .5rem;
+}
+
+/* Fontawesome icons font-family override Jetpack Genericons */
+.jetpack-social-navigation a:before {
+    font-family: 'fontawesome' !important;
+}
+
+/* Colors for social icons: http://designpieces.com/2012/12/social-media-colours-hex-and-rgb/ */
+/* Fontawesome icons unicode override Jetpack Genericons*/
+.jetpack-social-navigation a[href*="wordpress.org"]:before {
+    content: "\f19a" !important;
+    color: #21759b;
+}
+.jetpack-social-navigation a[href*="github.com"]:before {
+    content: "\f09b" !important;
+    color: #000000;
+}
+.jetpack-social-navigation a[href*="linkedin.com"]:before {
+    content: "\f08c" !important;
+    color: #007bb5;
+}
+.jetpack-social-navigation a[href*="facebook.com"]:before {color: #3b5998;}
+.jetpack-social-navigation a[href*="google.com"]:before {color: #dd4b39;}
+.jetpack-social-navigation a[href*="youtube.com"]:before {color: #bb0000;}
+.jetpack-social-navigation a[href*="instagram.com"]:before {color: #125688;}
+.jetpack-social-navigation a[href*="pinterest.com"]:before {color: #cb2027;}
+.jetpack-social-navigation a[href*="twitter.com"]:before {
+    content: "\f099" !important;
+    color: #55acee;
+}
+.jetpack-social-navigation a[href*="deviantart.com"]:before {
+    content: "\f1bd" !important;
+    color: #05cc47;
+}
+.jetpack-social-navigation a[href*="stackoverflow.com"]:before {
+    content: "\f16c" !important;
+    color: #dd4b39;
+}
+.jetpack-social-navigation a[href*="goodreads.com"]:before {
+    content: "\f02d" !important;
+    color: #8a6343;
+}
+
+
+
+/* front page social navigation styles */
+.columns-12 {
+
+    .jetpack-social-navigation {
+        width: 100%;
+        
+                .menu {
+                    display: flex;
+                    flex-flow: row wrap;
+                    flex: 1 1 auto;
+                    width: 100%;
+                    justify-content: space-between;
+                    align-content: center;
+
+                    li {
+                        margin: 2rem;
+
+                            a {
+                                font-size: 10rem;
+                            }
+                    }
+                }
+    }
+}

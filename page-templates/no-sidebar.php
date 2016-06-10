@@ -1,7 +1,7 @@
 <?php
 /**
  * 
- * Template Name: Page with no sidebar
+ * Template Name: No sidebar
  *
  * @link https://codex.wordpress.org/Template_Hierarchy
  *

@@ -1,0 +1,17 @@
+h1, h2, h3, h4, h5, h6 {
+	clear: both;
+}
+
+.entry-title,
+.entry-meta {
+    margin: 0 0 1rem 0;
+}
+
+@media screen and (max-width: 367.092px) {
+
+    h1 {
+        margin: 0;
+    }
+    
+    
+}

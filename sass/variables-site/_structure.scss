@@ -1,0 +1,51 @@
+$size__site-main: 100%;
+
+// (12 * 67.773px) + (11 * 32px) + 32px = 1197.276px grid of 12 columns, 11 gutters and padding 16px each side of sidebars
+$size_grid: 74.82975em; // 1197.276px, 74.82975em @16px
+
+$size_gutter-px: 32px;  // 2em @16px
+$size_gutter-em: 2em;
+// 16px = 1.33636688616%, 32px = 2.74613053045%
+
+// Width one column
+$size_column1:  4.236em;  // 67.773px, 4.236em @ 16px
+
+// Width two columns
+$size_column2: ($size_column1 * 2) + $size_gutter-em;  // 167.546px, 10.472em @ 16px
+
+// Width of sidebar, 22.3272662277%
+$size_column3: ($size_column1 * 3) + ($size_gutter-em * 2); // 267.319px, 16.7074375em @16px
+
+// Width mobile, 31.5025796464%
+$size_column4: ($size_column1 * 4) + ($size_gutter-em * 3); // 367.092px
+
+// Width of entry items near 33rem for easy reading, 47.3272662277%
+$size_column6: ($size_column1 * 6) + ($size_gutter-em * 5);  // 566.638px, 35.414875em @16px
+
+// Width of article content, (766.184 / 1165.276) * 100 = 65.7512898232%
+$size_column8: ($size_column1 * 8) + ($size_gutter-em * 7);  // 766.184px, 47.8865em @ 16px
+
+// Width of 12 columns, no side padding
+$size_column12: ($size_column1 * 12) + ($size_gutter-em * 11);   // 1165px, 73em @16px
+
+// Short side of golden rectangle block
+$size_row1: 103.549122679px; // 167.546px / 1.618 or 10.472em / 1.618 = 6.472187886em @16px
+$size_row2: ($size_row1 * 2) + $size_gutter-px;
+$size_row3: ($size_row1 * 3) + ($size_gutter-px * 2);
+
+// 33em for ideal character length, 47.8865em - 33em = 14.8875em padding for article content, 14.8875em / 2 = 7.44375em
+
+// Ratio of content to sidebar = 2.11970716634
+// Ration of sidebar to content = 0.47176327743
+
+
+// 566.638px + 267.319px = 833.957px
+// 897.957px 
+// Content one sidebar ratios
+// 897.957px / 267.319
+// 566.638px / 897.957px x 100
+$size_sidebar_content_sidebar: ($size_column4 * 2) + $size_column8; // (367.092px * 2) + 766.184px = 1500.368px, 93.773em @16px
+
+// Two sidebars at 1197.276px, 74.82975em @16px
+
+// One sidebar at 897.957px, 56.1223125em @16px

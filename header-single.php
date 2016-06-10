@@ -77,7 +77,7 @@
                             </nav><!-- #site-navigation -->
                             
                    <!-- http://www.mikejohnsondesign.com/add-wordpress-featured-image-as-background-image/ -->         
-                   <?php 
+                    <?php 
                         global $post; 
                         $src = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), array( 5600,1000 ), false, '' ); 
                   
@@ -89,7 +89,10 @@
                         elseif ( get_header_image() && !('blank' == get_header_textcolor()) ) :  // Displays the site header img if no featured img set
                                 echo '<div class="site-header header-background-image" style="background-image: url(' . get_header_image() . ')">';
                         endif
-                  ?>
+                    ?>
+                   
+                   <title id="header-image-title"> <?php wp_title(''); ?> </title>
+
                   
                   </header><!-- #masthead -->
 	<div id="content" class="site-content">
