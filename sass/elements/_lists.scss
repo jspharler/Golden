@@ -1,0 +1,46 @@
+ul, ol {
+	margin: 0 0 1.5em 3em;
+}
+
+.widget-area ul {
+        margin: 0 0 1.5em 0;
+        list-style: none;
+}
+
+ul {
+	list-style: disc;
+}
+
+ol {
+	list-style: decimal;
+}
+
+li > ul,
+li > ol {
+	margin-bottom: 0;
+	margin-left: 1.5em;
+}
+
+dt {
+	font-weight: bold;
+}
+
+dd {
+	margin: 0 1.5em 1.5em;
+}
+
+/* prevent overflow */
+@media screen and (max-width: 430px) {
+    ol,
+    ul {
+        padding: 0 0 1em 1em;
+        margin: 0 0 1em 1em;
+        
+        ol,
+        ul {
+            padding: 0 0 1em 1em;
+            margin: 0 0 1em 1em;
+        }
+    }
+}
+    

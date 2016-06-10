@@ -1,0 +1,132 @@
+.widget {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-size: 1rem;
+    word-wrap: break-word;
+    
+    a {
+        font-weight: 700;
+        color: #000;
+        color: hsl(0, 0%, 0%);
+    }
+    
+    ul, ol {
+        padding: 0;
+        margin: -1em 0 0;
+        list-style-type: none;
+    }
+    
+    li { 
+        padding: .5em 0 0; 
+        
+        ul, ol { margin-top: 0; }
+        
+        li { margin-left: 1.5em; }
+    }
+}
+
+.widget-title {
+    font-size: 1rem;
+    margin: 0 0 1rem 0;    
+    border-bottom: 2px solid #000;    
+}
+
+.widget_recent_entries li:before,
+.widget_recent_comments li:before,
+.widget_archive li:before {
+    display: block;
+    float: left;
+    padding-top: 2px;
+    margin-left: -2.5em;
+    font-family: 'fontawesome';
+} 
+
+.widget_recent_entries li,
+.widget_recent_comments li { margin: 0 0 .5em 2.5em; }
+
+.widget_recent_entries li:before { content: "\f036"; }
+
+.widget_recent_comments li:before { content: "\f075"; }
+
+.widget_archive li { margin: 0 0 0 2.5em; }
+
+.widget_archive li:before { content: "\f187"; }
+
+.widget_nav_menu a,
+.widget_pages a {
+    display: block;
+    padding: 1em 0;
+    border-bottom: solid 1px hsl(0, 0%, 90%);
+}
+
+.widget_nav_menu li,
+.widget_pages li { padding-top: 0; }
+
+.widget_rss li { margin-bottom: .5em; }
+
+.widget_rss .rss-date,
+.widget_rss cite {
+    display: block;
+    font-size: 85%;
+}
+
+/* Make sure select elements fit in widgets */
+.widget select { max-width: 100%; }
+
+/* Search widget */
+.widget_search {
+    display: flex;
+    flex: 0 1 auto;
+    font-family: 'fontawesome';
+    content: "\f002";
+    padding: 0;
+    
+    .search-form {
+        display: flex;
+        width: 100%;
+        font-family: 'fontawesome';
+        content: "\f002";
+    }
+    
+    label {
+        display: flex;
+        margin: 1rem;
+        
+        .search-field {
+            order: 2;
+            margin-left: -3rem;
+            padding: 0 1rem 0 3rem;
+            background: #4d4d4d;
+            color: white;
+            border-radius: 25px;
+            max-width: 150px;
+        }
+    }
+}
+
+.widget_search form :before {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content: "\f002";
+    font-size: 1rem;
+    color: gold;
+    order: 1;
+    padding: 0 1rem;
+    z-index: 2;
+}
+
+.search-submit {	
+    display: none;
+}
+
+.widget.grid-item {
+    width: 100%;
+    padding: 1rem;
+}
+/*
+@media screen and (max-width: 914px) {
+    .widget.grid-item {
+        width: 100%; 
+    }
+}*/

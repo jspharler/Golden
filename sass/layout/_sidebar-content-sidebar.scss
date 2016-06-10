@@ -1,0 +1,197 @@
+/*
+ * Theme Name: Golden
+ *
+ * Layout: Sidebar-Content-Sidebar
+ *
+ * Learn more: https://developer.wordpress.org/themes/basics/template-files/
+*/
+
+#content {
+    display: flex;
+    height: 100%;
+}
+
+#primary,
+#secondary,
+#tertiary {
+    display: flex;
+    height: auto;
+    flex: 1 1 auto;
+}
+
+.entry-header,
+.page-header,
+.entry-content,
+.entry-footer,
+.tag-links,
+.post-navigation,
+.comments-area,
+.paging-navigation { 
+    padding: 0;
+    margin: 0;
+}
+
+// Responsive font sizing
+@media screen and (min-width: 1460px) {
+    html {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 1198px) and (max-width: 1459px) {
+    html {
+        font-size: 1.125rem;
+    }
+}
+
+@media screen and (min-width: 914px) and (max-width: 1197px) {
+   #content,
+   .grid-item {
+        font-size: 1.125rem;
+    }
+}
+
+@media screen and (min-width: 755px) and (max-width: 914px) {
+   #content,
+   .grid-item {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 550px) and (max-width: 755px) {
+   #content,
+   .grid-item {
+        font-size: 1.125rem;
+    }
+}
+
+/* Sidebar content sidebar */
+@media screen and (min-width: 1197px) {
+
+    #content {
+        flex-flow: row nowrap;
+
+        #primary {
+            flex-flow: column nowrap;
+            order: 2;
+            padding: 0 1rem 1rem 1rem;
+            flex: 1 1 auto;
+            width: 44.721%;
+            -webkit-box-shadow: 1px 3px 22px 7px rgba(51,51,51,0.38);
+            -moz-box-shadow: 1px 3px 22px 7px rgba(51,51,51,0.38);
+            box-shadow: 1px 3px 22px 7px rgba(51,51,51,0.38);
+        }
+        #secondary {
+            display: flex;
+            flex-flow: column nowrap;
+            width: 27.640%;
+            padding: 1rem;
+            order: 3;
+            flex: 1 1 auto;
+        }
+
+        #tertiary {
+            flex-flow: column nowrap;
+            width: 27.640%;
+            order: 1;
+            flex: 1 1 auto;
+            padding: 1rem;
+
+        }
+    }
+}
+
+/* Left sidebar below */
+@media screen and (min-width: 914px) and (max-width: 1196px){
+    
+    #content {
+        flex-flow: row wrap;
+        
+        #primary {
+            flex-flow: column nowrap;
+            order: 1;
+            width: 61.805%;
+            padding: 0 1rem 1rem 1rem;
+            -webkit-box-shadow: 1px 3px 22px 7px rgba(51,51,51,0.38);
+            -moz-box-shadow: 1px 3px 22px 7px rgba(51,51,51,0.38);
+            box-shadow: 1px 3px 22px 7px rgba(51,51,51,0.38);
+        }
+        #secondary {
+            display: flex;
+            flex-flow: column nowrap;
+            order: 2;
+            width: 38.195%;
+            padding: 1rem;
+            
+        }
+        
+        #tertiary {
+            flex-flow: column nowrap;
+            width: 100%;
+            order: 3;
+            padding: 1rem;
+        }
+    }
+}
+
+/* Single column, tablets */
+@media screen and (min-width: 367px) and (max-width: 913px) {
+
+    #content {
+        flex-flow: column nowrap;
+        margin: 0 1rem 2rem 1rem;
+
+        #primary {
+            order: 1;
+            padding: 1rem 0;
+            flex-flow: column nowrap;
+        }
+        #secondary {
+            order: 2;
+            padding: 1rem 0;
+            flex-flow: column nowrap;
+        }
+
+        #tertiary {
+            order: 3;
+            padding: 1rem 0;
+            flex-flow: column nowrap;
+        }
+    }
+}
+
+/* Full width, mobile */
+@media screen and (max-width: 366px) {
+
+    #content {
+        flex-flow: column nowrap;
+        margin: 0 1rem 1rem 1rem;
+        
+        #primary {
+            order: 1;
+            padding: 1rem 0 1rem 0;
+            flex-flow: column nowrap;
+        }
+        #secondary {
+            order: 2;
+            padding: 1rem 0 1rem 0;
+            flex-flow: column nowrap;
+
+            ul {
+                margin: 0;
+                padding: 1rem;
+            }
+        }
+
+        #tertiary {
+            order: 3;
+            padding: 1rem 0 1rem 0;
+            flex-flow: column nowrap;
+
+            ul {
+                margin: 0;
+                padding: 1rem;
+            }
+        }
+    }
+}

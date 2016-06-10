@@ -97,10 +97,10 @@ nbproject
 # =========================
 # Sass
 # =========================
-sass/
-sass
-.sass-cache/
-*.css.map
+#sass/
+#sass
+#.sass-cache/
+#*.css.map
 
 # =========================
 # Other

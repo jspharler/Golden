@@ -1,0 +1,29 @@
+.site-footer {
+    background: #333333; //charcoal grey
+    clear: both;
+    padding: 1em;
+    
+    /* Used for sticky footer, http://mystrd.at/modern-clean-css-sticky-footer/ */
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    
+    a {
+        color: #FFD700; // gold
+        text-decoration: none;
+    }
+    
+    .site-info {
+        text-align: center; 
+        color: white;
+    }
+}
+
+footer.entry-footer {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+
