@@ -4487,15 +4487,16 @@ article.entry-content > p {
 }
 
 .widget.grid-item {
-  max-width: 300px;
+  width: 100%;
   padding: 1rem;
 }
 
+/*
 @media screen and (max-width: 914px) {
-  .widget.grid-item {
-    width: 100%;
-  }
-}
+    .widget.grid-item {
+        width: 100%; 
+    }
+}*/
 /*--------------------------------------------------------------
 11.0 Infinite scroll
 --------------------------------------------------------------*/

@@ -1,7 +1,7 @@
 <?php
 /**
  * 
- * Template Name: Page with left sidebar
+ * Template Name: Left sidebar
  *
  * @link https://codex.wordpress.org/Template_Hierarchy
  *
@@ -30,4 +30,4 @@ get_header(); ?>
 	</div><!-- #primary -->
 
 <?php get_sidebar('left'); ?>    
-<?php get_footer(); ?>
+<?php get_footer(); 
