@@ -1,10 +1,9 @@
 html {
 	box-sizing: border-box;
-                  background-color: #FFF9D9;  // off-white with gold
-        
-                  /* Used for sticky footer, http://mystrd.at/modern-clean-css-sticky-footer/ */
-                  position: relative;
-                  min-height: 100%;
+        background-color: #FFF9D9;  // off-white with gold
+        /* Used for sticky footer, http://mystrd.at/modern-clean-css-sticky-footer/ */
+        position: relative;
+        min-height: 100%;
 }
 
 *,
@@ -14,11 +13,10 @@ html {
 }
 
 body {
-	background: $color__background-body; /* Fallback for when there is no custom background color defined. */
-                  background-color: #FFF9D9;  // off-white with gold  
-        
-                  /* Used for sticky footer, http://mystrd.at/modern-clean-css-sticky-footer/ */
-                  margin: 0 0 100px; /* bottom = footer height */
+	background: $color__background-body;  // Fallback for when there is no custom background color defined.
+        background-color: #FFF9D9;  // off-white with gold  
+        /* Used for sticky footer, http://mystrd.at/modern-clean-css-sticky-footer/ */
+        margin: 0 0 100px; // bottom = footer height 
 }
 
 blockquote, q {
@@ -40,8 +38,8 @@ hr {
 @import "lists";
 
 img {
-	height: auto; /* Make sure images are scaled correctly. */
-	max-width: 100%; /* Adhere to container width. */
+	height: auto; // Make sure images are scaled correctly. 
+	max-width: 100%; // Adhere to container width. 
 }
 
 @import "tables";
