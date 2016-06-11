@@ -3090,11 +3090,9 @@ html {
 
 body {
   background: #fff;
-  /* Fallback for when there is no custom background color defined. */
   background-color: #FFF9D9;
   /* Used for sticky footer, http://mystrd.at/modern-clean-css-sticky-footer/ */
   margin: 0 0 100px;
-  /* bottom = footer height */
 }
 
 blockquote, q {
@@ -3159,9 +3157,7 @@ dd {
 }
 img {
   height: auto;
-  /* Make sure images are scaled correctly. */
   max-width: 100%;
-  /* Adhere to container width. */
 }
 
 table {
@@ -4192,11 +4188,6 @@ header.entry-header h1.entry-title {
   text-decoration: underline;
 }
 
-/*.post {
-    background: #FFFDF2;
-    border: 2px solid;
-    padding: 1rem;
-}*/
 .single .entry-summary {
   display: none;
 }
@@ -4266,7 +4257,6 @@ header.entry-header h1.entry-title {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  border: 1px solid;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 === Golden ===
 
 Created by: Jake Spharler<br />
@@ -9,14 +8,14 @@ Tags: translation-ready, custom-background, theme-options, custom-menu, post-for
 
 Requires at least: 4.0<br />
 Tested up to: 4.4.2<br />
-Stable tag: 1.4.1<br />
+Stable tag: 1.6.11<br />
 License: GPL 2.0<br />
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 A personal blog WordPress theme design using the golden ratio. 
 
-The theme is based on a 12 column grid scaled at 67.773px, 4.236em @ 16px, with 16px padding on each side of the page.  
-Columns were calculated by scaling the root font size with the golden ratio.  Furthermore, the size of the header image to the site branding was also scaled using the golden ratio.
+Page layout of this theme is based on golden ratio proportions.  Sidebar width is scaled to the main content by dividing the main width by 1.618.  The header and title bar follow the same scale.  The author bio is also scaled accordingly. 
+
 
 == Installation ==
 	
@@ -31,6 +30,9 @@ Columns were calculated by scaling the root font size with the golden ratio.  Fu
 Golden includes support for Infinite Scroll, and Social Menu in Jetpack.
 
 == Changelog ==
+
+= 1.6.11 - June 11 2016 =
+* Fixed site layout issues, page title on header image, primary box shadow.
 
 = 1.4.1 - April 24 2016 =
 * Post styles changed, simplifying the blog index, and moving author info to bottom of post on single view.

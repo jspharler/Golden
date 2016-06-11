@@ -29,12 +29,6 @@ header.entry-header h1.entry-title {
     }
 }
 
-/*.post {
-    background: #FFFDF2;
-    border: 2px solid;
-    padding: 1rem;
-}*/
-
 .single .entry-summary {
     display: none;
 }
@@ -89,7 +83,6 @@ header.entry-header h1.entry-title {
 
 #author-avatar {
     align-items: center;
-    border: 1px solid;
     display: flex;
     flex-flow: column nowrap;
     float: left;
