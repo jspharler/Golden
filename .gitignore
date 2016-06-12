@@ -105,7 +105,7 @@ nbproject
 # =========================
 # Other
 # =========================
-images/
-images
+#images/
+#images
 compiled
 compiled/
