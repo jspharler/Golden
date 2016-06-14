@@ -1,8 +1,6 @@
 html {
 	box-sizing: border-box;
         background-color: #FFF9D9;  // off-white with gold
-        /* Used for sticky footer, http://mystrd.at/modern-clean-css-sticky-footer/ */
-        position: relative;
         min-height: 100%;
 }
 
@@ -15,8 +13,10 @@ html {
 body {
 	background: $color__background-body;  // Fallback for when there is no custom background color defined.
         background-color: #FFF9D9;  // off-white with gold  
-        /* Used for sticky footer, http://mystrd.at/modern-clean-css-sticky-footer/ */
-        margin: 0 0 100px; // bottom = footer height 
+}
+
+#content {
+    min-height: 100vh;
 }
 
 blockquote, q {

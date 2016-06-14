@@ -3076,8 +3076,6 @@ big {
 html {
   box-sizing: border-box;
   background-color: #FFF9D9;
-  /* Used for sticky footer, http://mystrd.at/modern-clean-css-sticky-footer/ */
-  position: relative;
   min-height: 100%;
 }
 
@@ -3091,8 +3089,10 @@ html {
 body {
   background: #fff;
   background-color: #FFF9D9;
-  /* Used for sticky footer, http://mystrd.at/modern-clean-css-sticky-footer/ */
-  margin: 0 0 100px;
+}
+
+#content {
+  min-height: 100vh;
 }
 
 blockquote, q {
@@ -3239,10 +3239,9 @@ textarea {
 /*--------------------------------------------------------------
 5.0 Header
 --------------------------------------------------------------*/
-#wpadminbar {
-  position: fixed;
-}
-
+/*#wpadminbar {
+    position: fixed;
+}*/
 .site-header {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -4603,11 +4602,10 @@ figure {
   background: #333333;
   clear: both;
   padding: 1em;
-  /* Used for sticky footer, http://mystrd.at/modern-clean-css-sticky-footer/ */
-  position: absolute;
+  position: relative;
   left: 0;
   bottom: 0;
-  height: 100px;
+  /*    height: 100px;*/
   width: 100%;
 }
 .site-footer a {
