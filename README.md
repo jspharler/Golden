@@ -65,7 +65,7 @@ Posts and pages can have Featured Images. On single post, the Featured Image rep
 * Based on [Underscores](http://underscores.me/), (C) 2012-2015 Automattic, Inc., [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html)
 * normalize.css http://necolas.github.io/normalize.css/, (C) 2012-2015 Nicolas Gallagher and Jonathan Neal, [MIT](http://opensource.org/licenses/MIT)
 * FontAwesome: Published under various [licenses](http://fortawesome.github.io/Font-Awesome/license/).
-* Useful golden scale resource at ]modularscale.com](http://www.modularscale.com/)
+* Useful golden scale resource at [modularscale.com](http://www.modularscale.com/)
 * Theme development help from [Themeshapers](http://themeshaper.com/).
 * Content center inspiration came from the theme, Simone, by Morten Rand-Hendriksen.  [Get his theme](https://wordpress.org/themes/simone/, and https://github.com/mor10/simone). He also provides helpful tutorials on theme development, Sass/Grunt on Lynda.com
 * Helpful [post by Mike Jordan](http://www.mikejohnsondesign.com/add-wordpress-featured-image-as-background-image/) assisted with developing the header-single.php featured image.
