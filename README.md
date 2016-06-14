@@ -6,7 +6,7 @@ Website: [jspharler.com](https://jspharler.com/)<br />
 Project URI: http://jspharler.github.io/golden
 
 Requires at least: 4.0<br />
-Tested up to: 4.4.2<br />
+Tested up to: 4.5.2<br />
 Stable tag: 1.6.13<br />
 License: GPL 2.0<br />
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
