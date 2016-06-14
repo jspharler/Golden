@@ -3239,9 +3239,6 @@ textarea {
 /*--------------------------------------------------------------
 5.0 Header
 --------------------------------------------------------------*/
-/*#wpadminbar {
-    position: fixed;
-}*/
 .site-header {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -4605,7 +4602,6 @@ figure {
   position: relative;
   left: 0;
   bottom: 0;
-  /*    height: 100px;*/
   width: 100%;
 }
 .site-footer a {
