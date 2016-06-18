@@ -25,7 +25,7 @@
 function golden_custom_header_setup() {
 	add_theme_support( 'custom-header', apply_filters( 'golden_custom_header_args', array(
 		'default-image'          => '',
-		'default-text-color'     => 'FFD700',
+		'default-text-color'     => 'ffd700',
 		'width'                  => 1197,
 		'height'                 => 335,
 		'flex-height'            => false,

@@ -17,6 +17,10 @@
   height: 100%;
 }
 
+#primary {
+    background-color: #FFFCEE;
+}
+
 #primary,
 #tertiary {
   display: -webkit-flex;

@@ -11,6 +11,10 @@
     height: 100%;
 }
 
+#primary {
+    background-color: #FFFCEE;
+}
+
 #primary,
 #secondary,
 #tertiary {
@@ -47,7 +51,7 @@
 @media screen and (min-width: 914px) and (max-width: 1197px) {
    #content,
    .grid-item {
-        font-size: 1.125rem;
+        font-size: 2.125rem;
     }
 }
 
@@ -74,7 +78,7 @@
         #primary {
             flex-flow: column nowrap;
             order: 2;
-            padding: 0 1rem 1rem 1rem;
+            padding: 1rem;
             flex: 1 1 auto;
             width: 44.721%;
             -webkit-box-shadow: 1px 3px 22px 7px rgba(51,51,51,0.38);
@@ -111,7 +115,7 @@
             flex-flow: column nowrap;
             order: 1;
             width: 61.805%;
-            padding: 0 1rem 1rem 1rem;
+            padding: 1rem;
             -webkit-box-shadow: 1px 3px 22px 7px rgba(51,51,51,0.38);
             -moz-box-shadow: 1px 3px 22px 7px rgba(51,51,51,0.38);
             box-shadow: 1px 3px 22px 7px rgba(51,51,51,0.38);
@@ -143,7 +147,7 @@
 
         #primary {
             order: 1;
-            padding: 1rem 0;
+            padding: 1rem;
             flex-flow: column nowrap;
         }
         #secondary {
