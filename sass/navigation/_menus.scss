@@ -312,11 +312,13 @@ Small menu styles
 }
 
 .jetpack-social-navigation li {
-    margin: .5rem;
+    margin: .5em;
 }
 
 /* Fontawesome icons font-family override Jetpack Genericons */
 .jetpack-social-navigation a:before {
+    display: flex !important;    
+    justify-content: center !important;
     font-family: 'fontawesome' !important;
 }
 
@@ -373,12 +375,19 @@ Small menu styles
                     align-content: center;
 
                     li {
-                        margin: 2rem;
-
                             a {
                                 font-size: 10rem;
                             }
                     }
                 }
+    }
+}
+
+@media screen and (max-width: 913px) {
+    .jetpack-social-navigation .menu {
+        margin: 0;
+        a {
+            font-size: 4em !important;
+        }
     }
 }

@@ -21,6 +21,7 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  background-color: #FFFCEE;
 }
 
 #secondary,
@@ -72,9 +73,13 @@
     -moz-box-shadow: 1px 3px 22px 7px rgba(51,51,51,0.38);
     box-shadow: 1px 3px 22px 7px rgba(51,51,51,0.38);
   }
-  #content #primary .site-main {
+  #content #primary {
     margin-left: 27.640%;
     margin-right: 27.640%;
+  }
+  
+  .site-main {
+      padding: 1rem;
   }
 }
 @media screen and (min-width: 755px) and (max-width: 1094px) {
