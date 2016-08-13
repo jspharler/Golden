@@ -1,20 +1,14 @@
 # Golden
 ## A WordPress theme design using the golden ratio.
 
-Created by: Jake Spharler
-
-Website: [jspharler.com](https://jspharler.com/)
-
+Created by: Jake Spharler  
+Website: [jspharler.com](https://jspharler.com/)  
 Project URI: http://jspharler.github.io/golden
 
-Requires at least: 4.0
-
-Tested up to: 4.5.3
-
-Stable tag: 1.8.13
-
-License: GPL 2.0 or later
-
+Requires at least: 4.0  
+Tested up to: 4.5.3  
+Stable tag: 1.8.13  
+License: GPL 2.0 or later  
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Page layout of this theme is based on golden ratio proportions.  Sidebar width is scaled to the main content by dividing the main width by 1.618.  The header and title bar follow the same scale.  The author bio is also scaled accordingly. 
