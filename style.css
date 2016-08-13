@@ -53,7 +53,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 1.0 Normalize
 --------------------------------------------------------------*/
 html {
-  font-family: "Work Sans", sans-serif;
+  font-family: "Times New Roman", sans-serif;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   font-size: 16px;
@@ -3374,9 +3374,6 @@ textarea {
     height: 75.578px;
   }
 
-  #masthead.site-header {
-    /*        height: auto;*/
-  }
   #masthead.site-header .site-branding {
     -webkit-order: 1;
         -ms-flex-order: 1;
@@ -3466,12 +3463,14 @@ a:hover, a:active {
 General styles
 --------------------------------------------------------------*/
 #site-navigation.main-navigation {
-  /*    display: flex;*/
   height: auto;
   -webkit-flex-flow: row wrap;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap;
   background: #333333;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 #site-navigation.main-navigation .toggle-container {
   display: -webkit-flex;
@@ -3531,7 +3530,6 @@ General styles
   position: relative;
 }
 #site-navigation.main-navigation #primary-container ul a:hover, #site-navigation.main-navigation #primary-menu ul a:hover {
-  /*                height: inherit;*/
   background: #4d4d4d;
 }
 #site-navigation.main-navigation ul {
@@ -3884,32 +3882,6 @@ Small menu untoggled
   color: #8a6343;
 }
 
-/* front page social navigation styles */
-.columns-12 .jetpack-social-navigation {
-  width: 100%;
-}
-.columns-12 .jetpack-social-navigation .menu {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-flow: row wrap;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-  -webkit-flex: 1 1 auto;
-      -ms-flex: 1 1 auto;
-          flex: 1 1 auto;
-  width: 100%;
-  -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-align-content: center;
-      -ms-flex-line-pack: center;
-          align-content: center;
-}
-.columns-12 .jetpack-social-navigation .menu li a {
-  font-size: 10rem;
-}
-
 @media screen and (max-width: 913px) {
   .jetpack-social-navigation .menu {
     margin: 0;
@@ -3921,8 +3893,9 @@ Small menu untoggled
 /*--------------------------------------------------------------
 6.3 Search
 --------------------------------------------------------------*/
-form.search-form {
-  padding-right: 8em;
+#header-search-container form.search-form {
+  margin: 0 1em;
+  width: 100%;
 }
 
 #header-search-container label {
@@ -3932,7 +3905,6 @@ form.search-form {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 250px;
 }
 
 .search-toggle {
@@ -3977,7 +3949,6 @@ form.search-form {
 }
 .search-box-wrapper .search-box {
   width: 100%;
-  /*            padding: 1em;*/
   height: 4em;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -4055,9 +4026,9 @@ Small Screen
     padding: 0;
   }
 
-  form.search-form {
-    padding-right: 1em;
-  }
+  /*    form.search-form {
+          padding-right: 1em;
+      }*/
 }
 /*--------------------------------------------------------------
 7.0 Accessibility
@@ -4337,6 +4308,11 @@ article.entry-content > p {
     font-size: 1.125rem;
   }
 }
+@media screen and (max-width: 913px) {
+  #primary div#bbpress-forums > ul {
+    font-size: 1rem;
+  }
+}
 /*--------------------------------------------------------------
 10.2 Widgets
 --------------------------------------------------------------*/
@@ -4497,12 +4473,6 @@ article.entry-content > p {
   padding: 1rem;
 }
 
-/*
-@media screen and (max-width: 914px) {
-    .widget.grid-item {
-        width: 100%; 
-    }
-}*/
 /*--------------------------------------------------------------
 11.0 Infinite scroll
 --------------------------------------------------------------*/

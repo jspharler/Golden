@@ -7,10 +7,10 @@ General styles
 --------------------------------------------------------------*/
 
 #site-navigation.main-navigation {
-/*    display: flex;*/
     height: auto;
     flex-flow: row wrap;
-    background: #333333; 
+    background: #333333;
+    display: flex;
     
     .toggle-container {
         display: flex;
@@ -65,8 +65,7 @@ General styles
                         position: relative;
             }
         
-            a:hover { 
-/*                height: inherit;*/
+            a:hover {
                 background: #4d4d4d;
             }
         
@@ -356,31 +355,6 @@ Small menu styles
 .jetpack-social-navigation a[href*="goodreads.com"]:before {
     content: "\f02d" !important;
     color: #8a6343;
-}
-
-
-
-/* front page social navigation styles */
-.columns-12 {
-
-    .jetpack-social-navigation {
-        width: 100%;
-        
-                .menu {
-                    display: flex;
-                    flex-flow: row wrap;
-                    flex: 1 1 auto;
-                    width: 100%;
-                    justify-content: space-between;
-                    align-content: center;
-
-                    li {
-                            a {
-                                font-size: 10rem;
-                            }
-                    }
-                }
-    }
 }
 
 @media screen and (max-width: 913px) {
