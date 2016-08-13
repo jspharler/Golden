@@ -72,14 +72,14 @@ Posts and pages can have Featured Images. On single post, the Featured Image rep
 ### Credits
 
 * Based on [Underscores](http://underscores.me/), (C) 2012-2016 Automattic, Inc., 
-...Licenses: [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html)..
-...Source: https://www.gnu.org/licenses/gpl-2.0.html..
+>Licenses: [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html)..
+>Source: https://www.gnu.org/licenses/gpl-2.0.html..
 * [normalize.css](http://necolas.github.io/normalize.css/), (C) 2012-2016 Nicolas Gallagher and Jonathan Neal
-...Licenses: [MIT](http://opensource.org/licenses/MIT)..
-...Source: http://opensource.org/licenses/MIT..
+>Licenses: [MIT](http://opensource.org/licenses/MIT)..
+>Source: http://opensource.org/licenses/MIT..
 * [Font Awesome](http://fontawesome.io/), (C) 2012-2016 Dave Gandy 
-...Licenses: SIL OFL 1.1..
-...Source: http://fontawesome.io/license/..
+>Licenses: SIL OFL 1.1..
+>Source: http://fontawesome.io/license/..
 * Content center inspiration from the theme, [Simone]((https://wordpress.org/themes/simone/), by Morten Rand-Hendriksen
 * Header inspiration from [post by Mike Jordan](http://www.mikejohnsondesign.com/add-wordpress-featured-image-as-background-image/)
 * Image used in screenshot.png by Jake Spharler, licensed under Creative Commons
