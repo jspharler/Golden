@@ -80,9 +80,9 @@ Licenses: [MIT](http://opensource.org/licenses/MIT)
 Source: http://opensource.org/licenses/MIT  
 
 * [Font Awesome](http://fontawesome.io/), (C) 2012-2016 Dave Gandy  
-Licenses: SIL OFL 1.1  
+Licenses: [SIL OFL 1.1](http://fontawesome.io/license/)  
 Source: http://fontawesome.io/license/  
 
-* Content center inspiration from the theme, [Simone]((https://wordpress.org/themes/simone/), by Morten Rand-Hendriksen
+* Content center inspiration from the theme, [Simone](https://wordpress.org/themes/simone/), by Morten Rand-Hendriksen
 * Header inspiration from [post by Mike Jordan](http://www.mikejohnsondesign.com/add-wordpress-featured-image-as-background-image/)
 * Image used in screenshot.png by Jake Spharler, licensed under Creative Commons
