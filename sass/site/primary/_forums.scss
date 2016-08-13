@@ -13,3 +13,9 @@
         font-size: 1.125rem;
     }
 }
+
+@media screen and (max-width: 913px) {
+    #primary div#bbpress-forums > ul {
+        font-size: 1rem;
+    }
+}
