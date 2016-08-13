@@ -1,14 +1,20 @@
 # Golden
 ## A WordPress theme design using the golden ratio.
 
-Created by: Jake Spharler<br />
-Website: [jspharler.com](https://jspharler.com/)<br />
+Created by: Jake Spharler
+
+Website: [jspharler.com](https://jspharler.com/)
+
 Project URI: http://jspharler.github.io/golden
 
-Requires at least: 4.0<br />
-Tested up to: 4.5.2<br />
-Stable tag: 1.6.13<br />
-License: GPL 2.0<br />
+Requires at least: 4.0
+
+Tested up to: 4.5.3
+
+Stable tag: 1.8.13
+
+License: GPL 2.0 or later
+
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Page layout of this theme is based on golden ratio proportions.  Sidebar width is scaled to the main content by dividing the main width by 1.618.  The header and title bar follow the same scale.  The author bio is also scaled accordingly. 
@@ -44,33 +50,36 @@ Does this theme support any plugins?
 = 1.0 - March 5 2016 =
 * Initial release
 
-### Layout Options<br />
+### Layout Options
+
 Two Sidebars, Left Sidebar, Right Sidebar, No-Sidebar.  To use these layouts, select in Edit Page > Page Attributes.
 
-### Widgetized Areas<br />
-1. Left Sidebar<br />
+### Widgetized Areas
+
+1. Left Sidebar
+
 2. Right Sidebar
 
-### Optional Jetpack Social Media icons<br />
+### Optional Jetpack Social Media icons
 Using Jetpack, social media icons will appear on posts, with the author info.
 
-### Gravatar<br />
+### Gravatar
 Author avatar will appear below post in single view, and in the comment area.
 
-### Featured Images<br />
+### Featured Images
 Posts and pages can have Featured Images. On single post, the Featured Image replaces the header image, with the post pulled up into it slightly.  I think this brings focus to the main content, and utilizes available space well.
 
 ### Credits
 
-* Based on [Underscores](http://underscores.me/), (C) 2012-2015 Automattic, Inc., [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html)
-* normalize.css http://necolas.github.io/normalize.css/, (C) 2012-2015 Nicolas Gallagher and Jonathan Neal, [MIT](http://opensource.org/licenses/MIT)
-* FontAwesome: Published under various [licenses](http://fortawesome.github.io/Font-Awesome/license/).
-* Useful golden scale resource at [modularscale.com](http://www.modularscale.com/)
-* Theme development help from [Themeshapers](http://themeshaper.com/).
-* Content center inspiration came from the theme, Simone, by Morten Rand-Hendriksen.  [Get his theme](https://wordpress.org/themes/simone/, and https://github.com/mor10/simone). He also provides helpful tutorials on theme development, Sass/Grunt on Lynda.com
-* Helpful [post by Mike Jordan](http://www.mikejohnsondesign.com/add-wordpress-featured-image-as-background-image/) assisted with developing the header-single.php featured image.
-* The accessible main menu is powered by Superfish. [MIT License](https://github.com/joeldbirch/superfish/blob/master/MIT-LICENSE.txt)
-* Responsive triggers for Superfish and Masonry powered by Enquire.js. [MIT Licence](http://wicky.nillia.ms/enquire.js/#license)
-* Images used in screenshot are by the theme author and published under the CC by-nc-nd 2.0 license
-* Thanks to my lovely wife for cookies and tea :)
-
+* Based on [Underscores](http://underscores.me/), (C) 2012-2016 Automattic, Inc., 
+Licenses: [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html)
+Source: https://www.gnu.org/licenses/gpl-2.0.html
+* [normalize.css](http://necolas.github.io/normalize.css/), (C) 2012-2016 Nicolas Gallagher and Jonathan Neal
+Licenses: [MIT](http://opensource.org/licenses/MIT)
+Source: http://opensource.org/licenses/MIT
+* [Font Awesome](http://fontawesome.io/), (C) 2012-2016 Dave Gandy 
+Licenses: SIL OFL 1.1
+Source: http://fontawesome.io/license/
+* Content center inspiration from the theme, [Simone]((https://wordpress.org/themes/simone/), by Morten Rand-Hendriksen
+* Header inspiration from [post by Mike Jordan](http://www.mikejohnsondesign.com/add-wordpress-featured-image-as-background-image/)
+* Image used in screenshot.png by Jake Spharler, licensed under Creative Commons
