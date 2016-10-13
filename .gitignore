@@ -103,9 +103,16 @@ nbproject
 #*.css.map
 
 # =========================
+# Vagrant
+# =========================
+*.sh
+*.yml
+vvv-hosts
+
+# =========================
 # Other
 # =========================
-#images/
-#images
+images/
+images
 compiled
 compiled/
