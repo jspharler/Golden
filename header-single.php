@@ -75,8 +75,7 @@
                                     
 
                             </nav><!-- #site-navigation -->
-                            
-                   <!-- http://www.mikejohnsondesign.com/add-wordpress-featured-image-as-background-image/ -->         
+                                   
                     <?php 
                         global $post; 
                         $src = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), array( 5600,1000 ), false, '' ); 
@@ -91,7 +90,7 @@
                         endif
                     ?>
                    
-                   <title id="header-image-title"> <?php wp_title(''); ?> </title>
+                   <title id="header-image-title"> <?php the_title(''); ?> </title>
 
                   
                   </header><!-- #masthead -->

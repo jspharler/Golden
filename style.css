@@ -5,22 +5,16 @@ Theme URI: http://jspharler.github.io/golden
 Author: Jake Spharler 
 Author URI: https://jspharler.com/
 Description: A WordPress theme designed using the golden ratio.
-Version: 1.8.13
-License: GNU 2.0
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Version: 1.11.6
+License: GNU 3.0
+License URI: http://www.gnu.org/licenses/
 Project URI: https://github.com/jspharler/golden
 Text Domain: golden
-Tags: translation-ready, custom-background, theme-options, custom-menu, post-formats, threaded-comments, right-sidebar, left-sidebar, featured-images, editor-style
+Tags: right-sidebar, left-sidebar, one-column, two-columns, three-columns, featured-images, featured-image-header, custom header, custom-background, custom-menu, blog
 
-This theme, like WordPress, is licensed under the GPL.
+Golden theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 
-Golden is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
-Underscores is distributed under the terms of the GNU GPL v2 or later.
-
-Normalizing styles have been helped along thanks to the fine work of
-Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
-*/
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
@@ -3404,10 +3398,7 @@ textarea {
     font-size: 2em;
   }
 
-  #masthead.site-header {
-    /*            height: auto;*/
-  }
-  #masthead.site-header .site-branding {
+  .site-branding {
     -webkit-order: 1;
         -ms-flex-order: 1;
             order: 1;
@@ -3418,16 +3409,17 @@ textarea {
     top: 0;
     width: 100%;
   }
-  #masthead.site-header .site-branding .site-header-main {
+  .site-branding .site-header-main {
     -webkit-flex-flow: column nowrap;
         -ms-flex-flow: column nowrap;
             flex-flow: column nowrap;
     padding: 0;
   }
-  #masthead.site-header .site-branding .site-header-main h1.site-title {
+  .site-branding .site-header-main h1.site-title {
     margin-right: none;
   }
-  #masthead.site-header .site-header.header-background-image {
+
+  .site-header.header-background-image {
     height: 166px;
   }
 }
@@ -4025,10 +4017,6 @@ Small Screen
     right: 0;
     padding: 0;
   }
-
-  /*    form.search-form {
-          padding-right: 1em;
-      }*/
 }
 /*--------------------------------------------------------------
 7.0 Accessibility

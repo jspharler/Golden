@@ -65,20 +65,6 @@ function golden_setup() {
                 ) 
         );
 
-	/*
-	 * Enable support for Post Formats.
-	 * See https://developer.wordpress.org/themes/functionality/post-formats/
-	 */
-	add_theme_support( 'post-formats', 
-                array(
-		'aside',
-		'image',
-		'video',
-		'quote',
-		'link',
-                ) 
-        );
-
 	// Set up the WordPress core custom background feature.
 	add_theme_support( 'custom-background', 
                 apply_filters( 'golden_custom_background_args', 
@@ -88,10 +74,6 @@ function golden_setup() {
                     ) 
                 ) 
         );
-		
-	// This theme styles the visual editor to resemble the theme style.
-	$font_url = '//fonts.googleapis.com/css?family=Work+Sans:400,100,700';
-	add_editor_style( array( 'inc/editor-style.css', str_replace( ',', '%2C', $font_url ) ) );
 }
 endif; // golden_setup
 add_action( 'after_setup_theme', 'golden_setup' );
@@ -197,10 +179,10 @@ function golden_scripts() {
         wp_enqueue_style( 'golden-style', golden_get_parent_stylesheet_uri() );  // Load parent theme stylesheet even when child theme is active
         
         wp_enqueue_style( 'fontawesome', get_template_directory_uri() . '/fonts/font-awesome/css/font-awesome.css'); // FontAwesome
-        wp_enqueue_script( 'golden-hide-search', get_template_directory_uri() . '/js/hide-search.js', array(), '20160128', true );
+        wp_enqueue_script( 'golden-hide-search', get_template_directory_uri() . '/js/hide-search.js', array('jquery'), '20160128', true );
         wp_enqueue_script( 'golden-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
         wp_enqueue_script( 'golden-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20130115', true );
-        wp_enqueue_script( 'golden-functions', get_template_directory_uri() . '/js/functions.js', array(), '20160128', true );
+        wp_enqueue_script( 'golden-functions', get_template_directory_uri() . '/js/functions.js', array('jquery'), '20160128', true );
         
         if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
                 wp_enqueue_script( 'comment-reply' );
