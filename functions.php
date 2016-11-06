@@ -74,6 +74,11 @@ function golden_setup() {
                     ) 
                 ) 
         );
+        
+        /*
+	 * This theme styles the visual editor to resemble the theme style.
+	 */
+	add_editor_style( 'editor-style.css' );
 }
 endif; // golden_setup
 add_action( 'after_setup_theme', 'golden_setup' );

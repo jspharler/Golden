@@ -10,7 +10,7 @@ Tested up to: 4.5.3
 Stable tag: 1.11.6  
 License: GPL 3.0 or later  
 License URI: http://www.gnu.org/licenses/
-Tags: right-sidebar, left-sidebar, one-column, two-columns, three-columns, featured-images, featured-image-header, custom header, custom-background, custom-menu, blog
+Tags: right-sidebar, left-sidebar, one-column, two-columns, three-columns, featured-images, featured-image-header, custom-header, custom-background, custom-menu, blog
 
 Page layout of this theme is based on golden ratio proportions. Sidebar width is scaled to the main content by dividing the main width by 1.618. The header, title, and author bio are scaled accordingly.
 
@@ -45,7 +45,7 @@ Does this theme support any plugins?
 ### Changelog
 
 = 1.11.6 - November 6 2016 =
-* Trac ticket #31015. Theme review by @kevinhaig. Fix header title function, theme tags. Remove unused editor styles and post format code. Add/correct licensing info.
+* Trac ticket #31015. Theme review by @kevinhaig. Fix header title function, theme tags, enable editor styles, post format code, and add/correct licensing info.
 
 = 1.8.13 - August 13 2016 =
 * Trac ticket #31015. Theme review by @rinkuyadav999. Removed unneeded files and code. Add/correct licensing info.
