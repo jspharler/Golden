@@ -3344,6 +3344,9 @@ textarea {
           order: 2;
   margin: 0;
 }
+#masthead.site-header .site-branding .site-header-main .site-title a:visited {
+  color: #2A52BE;
+}
 
 @media screen and (min-width: 914px) {
   #header-image-title {
@@ -3879,6 +3882,7 @@ Small menu untoggled
     margin: 0;
   }
   .jetpack-social-navigation .menu a {
+    display: block;
     font-size: 4em !important;
   }
 }

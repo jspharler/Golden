@@ -93,9 +93,9 @@
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
     width: 44.721%;
-    -webkit-box-shadow: 1px 3px 22px 7px rgba(51,51,51,0.38);
-    -moz-box-shadow: 1px 3px 22px 7px rgba(51,51,51,0.38);
-    box-shadow: 1px 3px 22px 7px rgba(51,51,51,0.38);
+    -webkit-box-shadow: 1px 15px 22px 7px rgba(51,51,51,0.38);
+    -moz-box-shadow: 1px 15px 22px 7px rgba(51,51,51,0.38);
+    box-shadow: 1px 15px 22px 7px rgba(51,51,51,0.38);
   }
   #content #secondary {
     display: -webkit-flex;
@@ -150,9 +150,9 @@ body.single.single-post div#page.site div#content.site-content div#primary.conte
     margin: 0 1rem 1rem 1rem;
     width: 61.805%;
     padding: 1rem;
-    -webkit-box-shadow: 1px 3px 22px 7px rgba(51,51,51,0.38);
-    -moz-box-shadow: 1px 3px 22px 7px rgba(51,51,51,0.38);
-    box-shadow: 1px 3px 22px 7px rgba(51,51,51,0.38);
+    -webkit-box-shadow: 1px 15px 22px 7px rgba(51,51,51,0.38);
+    -moz-box-shadow: 1px 15px 22px 7px rgba(51,51,51,0.38);
+    box-shadow: 1px 15px 22px 7px rgba(51,51,51,0.38);
   }
   #content #secondary {
     display: -webkit-flex;
