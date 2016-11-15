@@ -87,6 +87,7 @@
     background-color: #fbf7ef;  // light tint of gold #cc9933;
     width: 27.640%;
     margin: 1rem;
+    padding: 1rem;
     -webkit-order: 3;
     -ms-flex-order: 3;
     order: 3;
