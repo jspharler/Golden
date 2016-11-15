@@ -8,8 +8,13 @@
     width: 100%;
     
     a {
-        color: #FFD700; // gold
+        color: #cc9933; // websafe gold
         text-decoration: none;
+    }
+    
+    & a:hover,
+    & a:focus {
+        color: #E3C71C; // #cc9933 mixed with #FFFF00
     }
     
     .site-info {

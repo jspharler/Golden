@@ -15,7 +15,7 @@
 function golden_custom_header_setup() {
 	add_theme_support( 'custom-header', apply_filters( 'golden_custom_header_args', array(
 		'default-image'          => '',
-		'default-text-color'     => 'ffd700',
+		'default-text-color'     => '#cc9933', // websafe gold, complimentary of cerulean blue #3366cc
 		'width'                  => 1197,
 		'height'                 => 335,
 		'flex-height'            => false,

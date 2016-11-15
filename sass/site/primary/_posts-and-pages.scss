@@ -34,7 +34,9 @@ header.entry-header h1.entry-title {
 }
 
 .hentry {
-	margin: 0 0 1em;
+        border: 1px solid gold;
+        padding: 1rem;
+        margin-bottom: 1rem;
 }
 
 .byline,
@@ -100,11 +102,6 @@ header.entry-header h1.entry-title {
 
 #author-description > h3 {
     margin: 0;
-}
-
-article {
-    border: 1px solid gold;
-    padding: 1rem;
 }
 
 article.entry-content > p {
