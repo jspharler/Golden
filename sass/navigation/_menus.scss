@@ -11,6 +11,8 @@ General styles
     flex-flow: row wrap;
     background: #333333;
     display: flex;
+    font-size: 1rem;
+    border-bottom: 1px solid white;
     
     .toggle-container {
         display: flex;
@@ -361,6 +363,7 @@ Small menu styles
     .jetpack-social-navigation .menu {
         margin: 0;
         a {
+            display: block;
             font-size: 4em !important;
         }
     }

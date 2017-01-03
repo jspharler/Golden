@@ -75,8 +75,6 @@
                                     
 
                             </nav><!-- #site-navigation -->
-                            
-                                    
 
                     <?php
                        if ( get_header_image() && !('blank' == get_header_textcolor()) ) {
@@ -86,7 +84,7 @@
                        }
                        
                     ?>
-                            <title id="header-image-title"> <?php wp_title(''); ?> </title>
+                            <title id="header-image-title"> <?php the_title(''); ?> </title>
                             </div>
                             
                             

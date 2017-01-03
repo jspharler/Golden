@@ -6,14 +6,29 @@ Website: [jspharler.com](https://jspharler.com/)
 Project URI: http://jspharler.github.io/golden
 
 Requires at least: 4.0  
-Tested up to: 4.5.3  
-Stable tag: 1.8.13  
-License: GPL 2.0 or later  
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tested up to: 4.7  
+Stable tag: 2.1.2  
+License: GPL 3.0 or later  
+License URI: http://www.gnu.org/licenses/
+Tags: right-sidebar, left-sidebar, one-column, two-columns, three-columns, featured-images, featured-image-header, custom-header, custom-background, custom-menu, blog
 
-Page layout of this theme is based on golden ratio proportions.  Sidebar width is scaled to the main content by dividing the main width by 1.618.  The header and title bar follow the same scale.  The author bio is also scaled accordingly. 
+Page layout of this theme is based on golden ratio proportions. Sidebar width is scaled to the main content by dividing the main width by 1.618. The header, title, and author bio are scaled accordingly.
 
-Tags: translation-ready, custom-background, theme-options, custom-menu, post-formats, threaded-comments, right-sidebar, left-sidebar, featured-images, responsive-layout, featured-image-header
+Golden WordPress Theme, Copyright 2015 Jake Spharler
+Golden is distributed under the terms of the GNU GPL
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 ### Installation
 	
@@ -28,6 +43,15 @@ Does this theme support any plugins?
 = Golden includes support for Infinite Scroll, and Social Menu in Jetpack.
 
 ### Changelog
+
+= 2.1.2 - January 2 2017 =
+* Trac ticket #31015. Theme appearance update. New screenshot.
+
+= 1.11.6 - November 6 2016 =
+* Trac ticket #31015. Theme review by @kevinhaig. Fix header title function, theme tags, enable editor styles, post format code, and add/correct licensing info.
+
+= 1.8.13 - August 13 2016 =
+* Trac ticket #31015. Theme review by @rinkuyadav999. Removed unneeded files and code. Add/correct licensing info.
 
 = 1.6.13 - June 13 2016 =
 * Fixed site layout issues, page title on header image, primary box shadow, widget width and new screenshot.
@@ -46,7 +70,7 @@ Does this theme support any plugins?
 
 ### Layout Options
 
-Two Sidebars, Left Sidebar, Right Sidebar, No-Sidebar.  To use these layouts, select in Edit Page > Page Attributes.
+Two Sidebars, Left Sidebar, Right Sidebar, No-Sidebar. To use these layouts, select in Edit Page > Page Attributes.
 
 ### Widgetized Areas
 
@@ -65,18 +89,21 @@ Posts and pages can have Featured Images. On single post, the Featured Image rep
 
 ### Credits
 
-* Based on [Underscores](http://underscores.me/), (C) 2012-2016 Automattic, Inc.,  
-Licenses: [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html)  
-Source: https://www.gnu.org/licenses/gpl-2.0.html
+Golden WordPress Theme is derived from Underscores WordPress Theme, Copyright 2013 Automattic, Inc.
+Underscores WordPress Theme is distributed under the terms of the GNU GPL
 
-* [normalize.css](http://necolas.github.io/normalize.css/), (C) 2012-2016 Nicolas Gallagher and Jonathan Neal  
-Licenses: [MIT](http://opensource.org/licenses/MIT)  
-Source: http://opensource.org/licenses/MIT  
+Golden WordPress Theme bundles the following third-party resources:
 
-* [Font Awesome](http://fontawesome.io/), (C) 2012-2016 Dave Gandy  
-Licenses: [SIL OFL 1.1](http://fontawesome.io/license/)  
-Source: http://fontawesome.io/license/  
+Font Awesome icon font, Copyright 2012-2016 Dave Gandy
+Applies to all desktop and webfont files in the following directory: font-awesome/fonts/.
+License: SIL OFL 1.1
+URL: http://scripts.sil.org/OFL
+Applies to all CSS and LESS files in the following directories: font-awesome/css/, font-awesome/less/, and font-awesome/scss/.
+License: MIT License
+URL: http://opensource.org/licenses/mit-license.html
 
-* Content center inspiration from the theme, [Simone](https://wordpress.org/themes/simone/), by Morten Rand-Hendriksen
-* Header inspiration from [post by Mike Jordan](http://www.mikejohnsondesign.com/add-wordpress-featured-image-as-background-image/)
-* Image used in screenshot.png by Jake Spharler, licensed under Creative Commons
+Content center inspiration from the theme, [Simone](https://wordpress.org/themes/simone/), by Morten Rand-Hendriksen
+
+Header inspiration from [post by Mike Jordan](http://www.mikejohnsondesign.com/add-wordpress-featured-image-as-background-image/)
+
+Image used in screenshot.png by Jake Spharler, licensed under Creative Commons

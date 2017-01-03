@@ -6,21 +6,6 @@
  * Learn more: https://developer.wordpress.org/themes/basics/template-files/
 */
 
-#page {
-  background-color: #FFF9D9;
-}
-
-#content {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  height: 100%;
-}
-
-#primary {
-    background-color: #FFFCEE;
-}
-
 #primary,
 #tertiary {
   display: -webkit-flex;
@@ -54,6 +39,16 @@
     font-size: 1.125rem;
   }
 }
+@media screen and (min-width: 700px) and (max-width: 1094px) {
+  .site {
+    font-size: 2rem;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 699px) {
+  .site {
+    font-size: 1.25rem;
+  }
+}
 /* Sidebar-content */
 @media screen and (min-width: 1095px) {
   #content {
@@ -68,18 +63,19 @@
     -webkit-order: 2;
     -ms-flex-order: 2;
     order: 2;
-    padding: 0 1rem 1rem 1rem;
     -webkit-flex: 1 1 auto;
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
     width: 72.361%;
   }
   #content #primary .site-main {
+    background-color: #fbf7ef;  // light tint of gold #cc9933;
     margin-right: 27.640vw;
-    padding: 0 1rem 1rem 1rem;
-    -webkit-box-shadow: 1px 3px 22px 7px rgba(51,51,51,0.38);
-    -moz-box-shadow: 1px 3px 22px 7px rgba(51,51,51,0.38);
-    box-shadow: 1px 3px 22px 7px rgba(51,51,51,0.38);
+    margin-bottom: 1rem;
+    padding: 1rem;
+    -webkit-box-shadow: 1px 15px 22px 7px rgba(51,51,51,0.38);
+    -moz-box-shadow: 1px 15px 22px 7px rgba(51,51,51,0.38);
+    box-shadow: 1px 15px 22px 7px rgba(51,51,51,0.38);
   }
   #content #tertiary {
     display: -webkit-flex;
@@ -88,7 +84,9 @@
     -webkit-flex-flow: column nowrap;
     -ms-flex-flow: column nowrap;
     flex-flow: column nowrap;
+    background-color: #fbf7ef;  // light tint of gold #cc9933;
     width: 27.640%;
+    margin: 1rem;
     padding: 1rem;
     -webkit-order: 1;
     -ms-flex-order: 1;
@@ -96,16 +94,14 @@
     -webkit-flex: 1 1 auto;
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
+    -webkit-box-shadow: 1px 15px 22px 7px rgba(51,51,51,0.38);
+    -moz-box-shadow: 1px 15px 22px 7px rgba(51,51,51,0.38);
+    box-shadow: 1px 15px 22px 7px rgba(51,51,51,0.38);
   }
 }
-@media screen and (min-width: 755px) and (max-width: 1094px) {
-  #content,
-  .grid-item {
-    font-size: 1.5rem;
-  }
-}
+
 /* Single column, tablets */
-@media screen and (min-width: 367.093px) and (max-width: 1094px) {
+@media screen and (min-width: 367px) and (max-width: 1094px) {
   #content {
     -webkit-flex-flow: column nowrap;
     -ms-flex-flow: column nowrap;
@@ -116,8 +112,9 @@
     -webkit-order: 1;
     -ms-flex-order: 1;
     order: 1;
+    background-color: #fbf7ef;  // light tint of gold #cc9933;
     margin: 0 0 1rem 0;
-    padding: 0 1rem;
+    padding: 1rem;
     -webkit-flex-flow: column nowrap;
     -ms-flex-flow: column nowrap;
     flex-flow: column nowrap;
@@ -129,26 +126,28 @@
     -webkit-order: 2;
     -ms-flex-order: 2;
     order: 2;
-    padding: 1rem;
+    background-color: #fbf7ef;  // light tint of gold #cc9933;
     -webkit-flex-flow: column nowrap;
     -ms-flex-flow: column nowrap;
     flex-flow: column nowrap;
+    -webkit-box-shadow: 1px 15px 22px 7px rgba(51,51,51,0.38);
+    -moz-box-shadow: 1px 15px 22px 7px rgba(51,51,51,0.38);
+    box-shadow: 1px 15px 22px 7px rgba(51,51,51,0.38);
   }
 }
 /* Full width, mobile */
-@media screen and (max-width: 367.092px) {
+@media screen and (max-width: 366px) {
   #content {
     -webkit-flex-flow: column nowrap;
     -ms-flex-flow: column nowrap;
     flex-flow: column nowrap;
-    margin: 0 1rem 2rem 1rem;
   }
   #content #primary {
     -webkit-order: 1;
     -ms-flex-order: 1;
     order: 1;
     margin: 0 0 1rem 0;
-    padding: 0 1rem;
+    padding: 1rem;
     -webkit-flex-flow: column nowrap;
     -ms-flex-flow: column nowrap;
     flex-flow: column nowrap;

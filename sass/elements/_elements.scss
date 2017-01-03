@@ -1,6 +1,5 @@
 html {
 	box-sizing: border-box;
-        background-color: #FFF9D9;  // off-white with gold
         min-height: 100%;
 }
 
@@ -12,11 +11,6 @@ html {
 
 body {
 	background: $color__background-body;  // Fallback for when there is no custom background color defined.
-        background-color: #FFF9D9;  // off-white with gold  
-}
-
-#content {
-    min-height: 100vh;
 }
 
 blockquote, q {
