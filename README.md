@@ -7,7 +7,7 @@ Project URI: http://jspharler.github.io/golden
 
 Requires at least: 4.0  
 Tested up to: 4.7  
-Stable tag: 2.1.2  
+Stable tag: 2.1.5  
 License: GPL 3.0 or later  
 License URI: http://www.gnu.org/licenses/
 Tags: right-sidebar, left-sidebar, one-column, two-columns, three-columns, featured-images, featured-image-header, custom-header, custom-background, custom-menu, blog
@@ -44,7 +44,7 @@ Does this theme support any plugins?
 
 ### Changelog
 
-= 2.1.2 - January 2 2017 =
+= 2.1.5 - January 5 2017 =
 * Trac ticket #31015. Theme appearance update. New screenshot.
 
 = 1.11.6 - November 6 2016 =
