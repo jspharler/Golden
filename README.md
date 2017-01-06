@@ -3,7 +3,7 @@
 
 Created by: Jake Spharler  
 Website: [jspharler.com](https://jspharler.com/)  
-Project URI: http://jspharler.github.io/golden
+Project URI: https://github.com/jspharler/golden
 
 Requires at least: 4.0  
 Tested up to: 4.7  
