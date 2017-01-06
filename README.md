@@ -10,6 +10,7 @@ Tested up to: 4.7
 Stable tag: 2.1.5  
 License: GPL 3.0 or later  
 License URI: http://www.gnu.org/licenses/
+
 Tags: right-sidebar, left-sidebar, one-column, two-columns, three-columns, featured-images, featured-image-header, custom-header, custom-background, custom-menu, blog
 
 Page layout of this theme is based on golden ratio proportions. Sidebar width is scaled to the main content by dividing the main width by 1.618. The header, title, and author bio are scaled accordingly.
